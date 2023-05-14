@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "digitalgenusswand"
+version = "0.1.0"
+description = "Digitalisiert muhahaha, kein Strichewucher mehr"
+authors = ["Simon <berndts.tin21@student.dhbw-heidenheim.de>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.95.1"
+sqlalchemy = "^2.0.13"
+uvicorn = "^0.22.0"
+werkzeug = "^2.2.3"
+PyJWT = "^2.6.0"
+python-decouple="^3.7"
+Pillow = "^9.4.0"
+passlib = {extras = ["bcrypt"], version = "^1.7.4"}
+python-jose = {extras = ["cryptography"], version = "^3.3.0"}
+python-multipart = "^0.0.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

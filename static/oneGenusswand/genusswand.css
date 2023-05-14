@@ -1,0 +1,67 @@
+body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: linear-gradient(90deg, rgba(34, 129, 195, 1) 0%, rgba(114, 45, 253, 1) 100%);
+}
+
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: auto;
+    margin: 5% auto;
+    align-self: center;
+}
+
+h1 {
+    color: white;
+}
+
+td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+tr {
+    background-color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
+tr.hoverEffect:nth-child(even):hover {
+    background-color: #999999;
+}
+
+tr.hoverEffect:hover {
+    background-color: #999999;
+}
+
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background: linear-gradient(90deg, rgba(63,34,195,1) 0%, rgba(125,3,204,1) 100%);
+    color: white;
+}
+
+
+#addGenusswand {
+    font-size: 14px;
+    border-radius: 4px;
+    line-height: 1;
+    transition: box-shadow 100ms ease-in, border 100ms ease-in, background-color 100ms ease-in;
+    border: 2px solid #dee1e2;
+    color: rgb(14, 14, 16);
+    background: #dee1e2;
+    height: 14px;
+}
+
+#addGenusswand:hover {
+    border-color: #7d03cc;
+}
+
+
+
